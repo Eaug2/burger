@@ -1,0 +1,107 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/burger_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row>">
+            < burger img -->
+            <!-- <center>
+                <h1>Eat Da Burger!</h1>
+            </center>
+        </div>
+
+        <div class="row"> -->
+            <!-- Left side -->
+            <!-- <div class="col-md-6">
+                <h4>Ready to Eat</h4>
+                <div id="readyToEat">
+                    <div class="input-group">
+                        <li class="form-group">Cheese Burger</li>
+                        <span class="input-group-btn devour-btn">
+                            <button class="btn" type="button">Devour It</button>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <li class="form-group">Buffalo Burger</li>
+                        <span class="input-group-btn devour-btn">
+                            <button class="btn" type="button">Devour It</button>
+                        </span>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Right side-->
+            <!-- <div class="col-md-6">
+                <h4>Already Eaten</h4>
+                <div id="already_eaten">
+                    <div class="input-group">
+                        <li class="form-group">Veggie Burger</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+
+            <div class="form-group col-md-6">
+                <center>
+                    <label>Enter a Burger you want to eat and hit Submit</label>
+                </center>
+                <textarea class="form-group" columns="8" rows="4" id="new_burger"></textarea>
+            </div>
+
+            <div class="col-md-3"></div>
+        </div>
+        <center>
+            <button id="submit-button" type="submit" class="btn">Submit</button>
+        </center>
+    </div>
+</body> -->
+<!-- <script>
+    $(function(){
+        $(".devour-btn").on("click", function(event){
+            var id = $(this).data("id");
+            // var eaten = {
+            //     devoured = true
+            // };
+            $.ajax("/" + id,{
+                type: "PUT",
+                
+            }).then(function(){
+                console.log(this.burger_name + "has been devoured");
+                location.reload();
+            });
+        });
+        $("textarea").on("submit", function(event){
+            event.preventDefault();
+            var newBurg = {
+                name:$("new_burger").val().trim()
+            };
+            $.ajax("/api/burgers",{
+                type:"POST",
+                data: newBurg
+            }).then(
+                function(){
+                    console.log("New Burger Added");
+                    location.reload();
+                }
+            );
+        });
+    });
+</script> -->
+<!-- </html> -->
