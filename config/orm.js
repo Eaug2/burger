@@ -23,7 +23,7 @@ var orm = {
     },
 
     updateOne: function (tableName, condition, cb) {
-        connecion.query("UPDATE " + tableName + "SET devoured=true WHERE id= " + condition + ";", function (err, result) {
+        connecion.query("UPDATE " + tableName + "SET devoured=true WHERE id=" + condition + ";", function (err, result) {
             if (err) throw err;
             cb(result)
         })

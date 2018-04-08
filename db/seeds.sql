@@ -5,4 +5,4 @@ INSERT INTO burgers (burger_name, devoured)
 VALUES ('buffaloBurger', false);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ('veggie', false);
+VALUES ('veggie', true);
