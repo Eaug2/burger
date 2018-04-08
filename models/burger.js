@@ -13,7 +13,7 @@ var burger = {
 
     update: function (id, cb) {
         orm.updateOne("burgers", id, cb);
-        }
+    }
 };
 
 module.exports = burger;
